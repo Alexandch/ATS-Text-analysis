@@ -1,0 +1,88 @@
+Анализ словосочетаний и тональности
+
+Тональность:
+- Доля негативных слов в резюме: Pearson r=-0.3168, Spearman rho=-0.3587
+- Доля позитивных слов в резюме: Pearson r=0.3105, Spearman rho=0.3203
+- Тональность резюме: Pearson r=0.2689, Spearman rho=0.2814
+- Разница тональности резюме и вакансии: Pearson r=0.1518, Spearman rho=0.1388
+- Доля позитивных слов в вакансии: Pearson r=0.1491, Spearman rho=0.1151
+
+Словосочетания резюме, связанные с более высокой ATS-оценкой:
+- university certifications aws: diff=0.4682, chi2=18040.51
+- xyz university certifications: diff=0.4682, chi2=18040.51
+- university certifications: diff=0.4681, chi2=18029.73
+- aws certified: diff=0.4349, chi2=13572.90
+- certified scrum master: diff=0.4348, chi2=13571.42
+- best performer: diff=0.4348, chi2=13571.28
+- award best performer: diff=0.4347, chi2=13570.96
+- certified scrum: diff=0.4348, chi2=13570.36
+- achievements innovation: diff=0.4346, chi2=13566.91
+- achievements innovation excellence: diff=0.4346, chi2=13566.91
+- architect certified: diff=0.4346, chi2=13566.91
+- architect certified scrum: diff=0.4346, chi2=13566.91
+- architected built: diff=0.4346, chi2=13566.91
+- architected built scalable: diff=0.4346, chi2=13566.91
+- built scalable platforms: diff=0.4346, chi2=13566.91
+- developed multiple enterprise: diff=0.4346, chi2=13566.91
+- enterprise projects architected: diff=0.4346, chi2=13566.91
+- excellence award best: diff=0.4346, chi2=13566.91
+- innovation excellence award: diff=0.4346, chi2=13566.91
+- master projects: diff=0.4346, chi2=13566.91
+
+Словосочетания резюме, связанные с более низкой ATS-оценкой:
+- exposure includes: diff=-0.3403, chi2=8820.28
+- professional years: diff=-0.1892, chi2=8388.37
+- demonstrate strong: diff=-0.2866, chi2=7497.66
+- key technical: diff=-0.2799, chi2=7240.53
+- key technical exposure: diff=-0.2799, chi2=7240.53
+- technical exposure: diff=-0.2799, chi2=7240.53
+- technical exposure includes: diff=-0.2799, chi2=7240.53
+- real time: diff=-0.2337, chi2=6736.50
+- bachelor degree: diff=-0.2618, chi2=6553.02
+- problem solving: diff=-0.2223, chi2=6537.96
+- education bachelor degree: diff=-0.2597, chi2=6495.11
+- summary fresher: diff=-0.1384, chi2=6411.77
+- skills ability: diff=-0.2133, chi2=6293.66
+- dynamic environments: diff=-0.2107, chi2=6259.68
+- strong expertise: diff=-0.2325, chi2=6141.43
+- fresher professional: diff=-0.1168, chi2=5886.11
+- fresher professional years: diff=-0.1168, chi2=5886.11
+- expertise practical: diff=-0.2222, chi2=5799.78
+- collaborating cross: diff=-0.1797, chi2=5717.04
+- collaborating cross functional: diff=-0.1796, chi2=5712.93
+
+Словосочетания вакансий, связанные с более высокой ATS-оценкой:
+- experience years: diff=0.2038, chi2=5146.73
+- experience years jobdescription: diff=0.2038, chi2=5146.73
+- jobtitle hiring: diff=0.0852, chi2=4646.11
+- experience fresher: diff=0.0356, chi2=2091.78
+- experience experienced: diff=0.0362, chi2=2027.40
+- experience fresher jobdescription: diff=0.0314, chi2=1854.51
+- fresher jobdescription: diff=0.0314, chi2=1854.51
+- engineer experience years: diff=0.0784, chi2=1805.85
+- developer experience years: diff=0.0550, chi2=1399.15
+- experience experienced jobdescription: diff=0.0187, chi2=1124.90
+- experienced jobdescription: diff=0.0187, chi2=1124.90
+- jobdescription assist: diff=0.0157, chi2=910.68
+- initiatives education: diff=0.0844, chi2=897.95
+- performance lead: diff=0.0839, chi2=883.04
+- optimize performance lead: diff=0.0836, chi2=876.39
+- candidate demonstrate: diff=0.1046, chi2=848.26
+- candidate demonstrate strong: diff=0.1046, chi2=848.26
+- demonstrate strong: diff=0.1046, chi2=848.26
+- ideal candidate: diff=0.1046, chi2=848.26
+- ideal candidate demonstrate: diff=0.1046, chi2=848.26
+
+Группы вакансий для отдельного анализа:
+- backend developer: 9009 наблюдений
+- software engineer: 6976 наблюдений
+- data scientist: 6511 наблюдений
+- ai engineer: 6260 наблюдений
+- devops engineer: 6209 наблюдений
+- qa engineer: 5912 наблюдений
+- full stack developer: 5078 наблюдений
+- machine learning engineer: 4268 наблюдений
+- data engineer: 3750 наблюдений
+- blockchain developer: 3743 наблюдений
+
+Подробные результаты сохранены в CSV-файлах и графиках папки phrase_analysis_outputs.

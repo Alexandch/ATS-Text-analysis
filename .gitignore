@@ -30,16 +30,6 @@ Desktop.ini
 .env
 .env.*
 
-# Large/generated analysis artifacts
-analysis_outputs/
-ml_outputs/
-phrase_analysis_outputs/
-ablation_outputs/
-multicollinearity_outputs/
-model_error_outputs/
-
-# Generated datasets and exports
-features.csv
 *.log
 
 # Generated document exports

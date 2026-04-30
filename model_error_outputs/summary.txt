@@ -1,0 +1,32 @@
+Анализ ошибок модели
+
+Модель: RandomForestRegressor
+R^2=0.5752, RMSE=9.2859, MAE=7.6104
+
+Ошибки по квартилям фактического score:
+- Q1: MAE=6.8847, RMSE=8.1244
+- Q2: MAE=6.2449, RMSE=8.0601
+- Q3: MAE=7.6179, RMSE=9.1271
+- Q4: MAE=9.6914, RMSE=11.4359
+
+Группы вакансий с наибольшей ошибкой:
+- ai researcher: MAE=8.8468, count=211
+- mobile developer: MAE=8.7886, count=309
+- qa lead: MAE=8.3844, count=209
+- full stack developer: MAE=8.3210, count=953
+- business analyst: MAE=8.2437, count=587
+- frontend engineer: MAE=8.1747, count=231
+- mobile application developer: MAE=8.1345, count=267
+- blockchain developer: MAE=8.0773, count=737
+
+Ошибки по квартилям cosine similarity:
+- Q1: MAE=6.8551
+- Q2: MAE=7.8353
+- Q3: MAE=7.9860
+- Q4: MAE=7.7654
+
+Ошибки по квартилям средней длины предложения в резюме:
+- Q1: MAE=8.9773
+- Q2: MAE=7.3470
+- Q3: MAE=7.0573
+- Q4: MAE=7.0292

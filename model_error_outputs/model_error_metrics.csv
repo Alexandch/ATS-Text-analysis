@@ -1,0 +1,2 @@
+﻿model,r2_test,rmse_test,mae_test
+RandomForestRegressor,0.5751754312041295,9.285939777525547,7.610442440388812

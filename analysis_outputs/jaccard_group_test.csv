@@ -1,0 +1,2 @@
+﻿threshold,low_group_size,high_group_size,low_group_mean_score,high_group_mean_score,mean_difference,welch_t_statistic,welch_t_p_value,mannwhitney_u_statistic,mannwhitney_u_p_value
+0.1282051282051282,60531,60545,40.91701029224694,39.85672846642993,-1.0602818258170146,-13.038979229134911,7.805053165840683e-39,1709724205.5,1.5180553899473253e-90
